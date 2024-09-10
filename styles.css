@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #F4F4F9;
+}
+h1 {
+    color: #333;
+}
+.level-buttons {
+    margin: 20px;
+}
+.level-buttons button {
+    padding: 15px 30px;
+    display: block;
+    margin: 3% auto;
+    font-size: 20px;
+    background: linear-gradient(to bottom, #F1F08A, #C6CD78);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px #999, 0px 10px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #333;
+    text-shadow: 1px 1px 0px #FFF;
+}
+.level-buttons button:hover {
+    background: linear-gradient(to bottom, #FECEA8, #FF847C);
+    box-shadow: 0px 2px 0px #999, 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+.level-buttons button:active {
+    background: linear-gradient(to bottom, #F4E557, #F5A855);
+    box-shadow: 0px 1px 0px #666;
+    transform: translateY(2px);
+}
+.story-button {
+    margin: 20px;
+}
+.story-button button {
+    padding : 15px 30px;
+    display: block;
+    margin: 3% auto;
+    font-size: 20px;
+    background: linear-gradient(to bottom, #DEE5D4, #D2E0FB);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px #999, 0px 10px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #333;
+    text-shadow: 1px 1px 0px #FFF;
+}
+.story-button button:hover {
+    background: linear-gradient(to bottom, #C4DAD2, #6A9C89);
+    box-shadow: 0px 2px 0px #999, 0px 8px 16px, rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+.story-button button:active {
+    background: linear-gradient(to bottom, #78B7D0, #227B94);
+}
+canvas {
+    display: none;
+    border: 2px solid #ABCDEF;
+    background-color: #D2E0FB;
+    margin-top: 20px auto;
+}
+.exit-button {
+    display: none;
+    margin-top: 20px;
+}
+.exit-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: linear-gradient(to bottom, #FF847C, #FECEA8);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px #999, 0px 10px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #333;
+    text-shadow: 1px 1px 0px #FFF;
+}
+.exit-button button:hover {
+    background: linear-gradient(to bottom, #F4E557, #F5A855);
+    box-shadow: 0px 2px 0px #999, 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+.exit-button button:active {
+    background: linear-gradient(to bottom, #FECEA8, #FF847C);
+    box-shadow: 0px 1px 0px #666;
+    transform: translateY(2px);
+}
+.exit-button button:disabled, button[disabled] {
+    border: 1px solid #999;
+    background-color: #CCC;
+    color: #666;
+}
